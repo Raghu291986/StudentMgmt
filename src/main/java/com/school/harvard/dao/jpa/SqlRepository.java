@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @author ezraksi
  *
  */
-public interface sqlRepository extends JpaRepository<Exam,Integer> {
+public interface SqlRepository extends JpaRepository<Exam,Integer> {
 	 
 	 /**
 	    * This method will find an Boooking instance in the database by its departure.
@@ -19,3 +19,4 @@ public interface sqlRepository extends JpaRepository<Exam,Integer> {
 	  // public Exam findByDeparture(String departure);
 
 }
+
